@@ -31,5 +31,5 @@
 *.out
 *.app
 
-# Debug Symbols
-Projekt2.27Projekt2/Projekt2/x64/*
+# Debug Symbols and Binary Files
+# Projekt2.2/Projekt2/Projekt2/x64/*
