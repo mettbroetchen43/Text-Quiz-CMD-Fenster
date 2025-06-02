@@ -3,7 +3,6 @@
 #include <vector>
 #include <cstdlib> // Für rand() und srand()
 #include <ctime>   // Für time
-#include <windows.h> // Für system("pause")
 
 // Funktion zum Erzeugen einer zufälligen Variation des Textes
 std::string zufaelligeVariation(const std::string& text) {
@@ -116,10 +115,8 @@ int main() {
 
     // Programm hält die Konsole offen
     std::cout << "\nDrücken Sie eine beliebige Taste, um das Programm zu beenden..." << std::endl;
-    system("pause"); // Warten auf Tasteneingabe
-
-    // Hier wird das Fehlerfenster erst nach dem Schliessen des Cmd-Fensters angezeigt:
-    MessageBox(NULL, L"Wennde lachsch, kriegsch nachher eine, he, i sag's dir!", L"Wichtige naricht", MB_ICONERROR | MB_OK);
+    std::cin.ignore();
+    std::cin.get();
 
     return 0;
 }
