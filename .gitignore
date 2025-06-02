@@ -30,3 +30,6 @@
 *.exe
 *.out
 *.app
+
+# Debug Symbols
+Projekt2.27Projekt2/Projekt2/x64/*
